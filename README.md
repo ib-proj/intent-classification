@@ -18,6 +18,6 @@ To run the model, pass the model name to the `main.py` script in your terminal:
 ```python main.py --modelname=<model name>```
 
 
-By default, the model uses a GRU encoder `GruEncoder`. To specify a different model, pass the model name as an argument.
+By default, the model uses a GRU encoder `GruEncoder`. To use the `GruSpeakerModel` instead, simply pass the name as an argument.
 
 For all other LSTM models, check the `notebooks` folder for Jupyter notebooks that demonstrate how to use these models.
