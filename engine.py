@@ -32,8 +32,8 @@ def engine(model_name :str):
     test_dataset = SWDADataset(swda['test'], tokenizer, max_seq_length=128)
 
     train_loader = DataLoader(train_dataset, batch_size=128, shuffle=True)
-    val_loader = DataLoader(train_dataset, batch_size=64, shuffle=True)
-    test_loader = DataLoader(test_dataset, batch_size=64, shuffle=True)
+    val_loader = DataLoader(val_dataset, batch_size=64, shuffle=True)
+    # test_loader = DataLoader(test_dataset, batch_size=64, shuffle=True)
 
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     # Instantiate the model
