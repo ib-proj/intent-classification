@@ -2,7 +2,7 @@
 
 This project aims to classify dialogue acts in conversational data using various model architectures and input features. The goal is to compare the performance of these models and determine which combination of architecture and input features yields the best results.
 
-The code in this project implements the method described in the paper available [here](https://www.overleaf.com/project/6405f87868c76164ec1a3a83).
+The code in this project implements the method described in the paper available [here](https://www.overleaf.com/read/vmcbftrngkdr).
 
 
 ## Installation
