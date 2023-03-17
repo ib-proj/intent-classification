@@ -1,5 +1,6 @@
 import re
 
+
 def clean_swda_utterance(text):
     text = re.sub(r'\[.*?\]', '', text)
     text = text.strip()
